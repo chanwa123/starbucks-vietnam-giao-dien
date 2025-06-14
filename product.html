@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực đơn - Starbucks Việt Nam</title>
+    <meta name="description" content="Khám phá thực đơn đa dạng của Starbucks Việt Nam với cà phê, trà, bánh ngọt và nhiều món ngon khác." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/product.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt="Starbucks" class="logo-img">
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link active">Thực đơn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Phần thưởng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Thẻ quà tặng</a>
+                    </li>
+                </ul>
+                
+                <!-- Right side buttons -->
+                <div class="nav-actions">
+                    <button class="btn-find-store">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Tìm cửa hàng
+                    </button>
+                    <button class="btn-signin">Đăng nhập</button>
+                    <button class="btn-signup">Tham gia ngay</button>
+                </div>
+                
+                <!-- Mobile menu toggle -->
+                <button class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <ul class="mobile-nav-menu">
+                <li><a href="product.html" class="mobile-nav-link">Thực đơn</a></li>
+                <li><a href="#" class="mobile-nav-link">Phần thưởng</a></li>
+                <li><a href="#" class="mobile-nav-link">Thẻ quà tặng</a></li>
+                <li><a href="#" class="mobile-nav-link">Tìm cửa hàng</a></li>
+                <li><a href="#" class="mobile-nav-link">Đăng nhập</a></li>
+                <li><a href="#" class="mobile-nav-link">Tham gia ngay</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Menu Header -->
+        <section class="menu-header">
+            <div class="container">
+                <h1 class="menu-title">Thực đơn</h1>
+                <p class="menu-subtitle">Khám phá những hương vị tuyệt vời từ Starbucks</p>
+            </div>
+        </section>
+
+        <!-- Menu Navigation -->
+        <section class="menu-nav-section">
+            <div class="container">
+                <div class="menu-nav">
+                    <button class="menu-nav-btn active" data-category="all">Tất cả</button>
+                    <button class="menu-nav-btn" data-category="drinks">Đồ uống</button>
+                    <button class="menu-nav-btn" data-category="food">Thức ăn</button>
+                    <button class="menu-nav-btn" data-category="coffee">Cà phê hạt</button>
+                    <button class="menu-nav-btn" data-category="merchandise">Sản phẩm khác</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Content -->
+        <section class="menu-content">
+            <div class="container">
+                <!-- Drinks Section -->
+                <div class="menu-section" data-category="drinks">
+                    <h2 class="section-title">Đồ uống nóng</h2>
+                    <div class="products-grid">
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Caffè Americano">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Caffè Americano</h3>
+                                <p class="product-description">Espresso đậm đà pha với nước nóng, tạo nên hương vị mạnh mẽ và tinh tế.</p>
+                                <div class="product-price">85.000đ</div>
+                            </div>
+                        </div>
+
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Caramel Macchiato">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Caramel Macchiato</h3>
+                                <p class="product-description">Latte mềm mại với vanilla syrup và caramel sauce thơm ngon.</p>
+                                <div class="product-price">115.000đ</div>
+                            </div>
+                        </div>
+
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pike Place Roast">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Pike Place® Roast</h3>
+                                <p class="product-description">Cà phê đặc trưng của Starbucks với hương vị cân bằng, mịn màng.</p>
+                                <div class="product-price">75.000đ</div>
+                            </div>
+                        </div>
+
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Latte">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Caffè Latte</h3>
+                                <p class="product-description">Espresso đậm đà kết hợp với sữa nóng và lớp foam mềm mại.</p>
+                                <div class="product-price">95.000đ</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="section-title">Đồ uống lạnh</h2>
+                    <div class="products-grid">
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Green Tea Frappuccino">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Green Tea Frappuccino®</h3>
+                                <p class="product-description">Thức uống mát lạnh từ bột trà xanh matcha Nhật Bản.</p>
+                                <div class="product-price">125.000đ</div>
+                            </div>
+                        </div>
+
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Iced Coffee">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Iced Coffee</h3>
+                                <p class="product-description">Cà phê pha lạnh tươi mát, hoàn hảo cho ngày nóng.</p>
+                                <div class="product-price">85.000đ</div>
+                            </div>
+                        </div>
+
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Cold Brew">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Cold Brew Coffee</h3>
+                                <p class="product-description">Cà phê pha lạnh trong 20 giờ, hương vị êm dịu và ngọt tự nhiên.</p>
+                                <div class="product-price">95.000đ</div>
+                            </div>
+                        </div>
+
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1527156231393-7023794f363c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Refreshers">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Refreshers®</h3>
+                                <p class="product-description">Thức uống tươi mát từ trái cây tự nhiên và caffeine nhẹ.</p>
+                                <div class="product-price">105.000đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Section -->
+                <div class="menu-section" data-category="food">
+                    <h2 class="section-title">Bánh ngọt & Món ăn nhẹ</h2>
+                    <div class="products-grid">
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1555507036-ab794f77665a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Croissant">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Butter Croissant</h3>
+                                <p class="product-description">Bánh croissant bơ thơm ngon, giòn rụm bên ngoài, mềm mại bên trong.</p>
+                                <div class="product-price">55.000đ</div>
+                            </div>
+                        </div>
+
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Blueberry Muffin">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Blueberry Muffin</h3>
+                                <p class="product-description">Bánh muffin với quả việt quất tươi, mềm xốp và thơm ngon.</p>
+                                <div class="product-price">65.000đ</div>
+                            </div>
+                        </div>
+
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Sandwich">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Turkey Sandwich</h3>
+                                <p class="product-description">Sandwich gà tây với rau xanh tươi và sốt đặc biệt.</p>
+                                <div class="product-price">125.000đ</div>
+                            </div>
+                        </div>
+
+                        <div class="product-item" onclick="window.location.href='product-detail.html'">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Cake Pop">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Cake Pop</h3>
+                                <p class="product-description">Bánh pop nhỏ xinh với nhiều hương vị và trang trí đáng yêu.</p>
+                                <div class="product-price">45.000đ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Về chúng tôi</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Câu chuyện của chúng tôi</a></li>
+                        <li><a href="#" class="footer-link">Tin tức</a></li>
+                        <li><a href="#" class="footer-link">Tuyển dụng</a></li>
+                        <li><a href="#" class="footer-link">Đầu tư</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Dịch vụ khách hàng</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Liên hệ chúng tôi</a></li>
+                        <li><a href="#" class="footer-link">FAQ</a></li>
+                        <li><a href="#" class="footer-link">Chính sách đổi trả</a></li>
+                        <li><a href="#" class="footer-link">Hỗ trợ kỹ thuật</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Chương trình</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Starbucks Rewards</a></li>
+                        <li><a href="#" class="footer-link">Thẻ quà tặng</a></li>
+                        <li><a href="#" class="footer-link">Ưu đãi đặc biệt</a></li>
+                        <li><a href="#" class="footer-link">Doanh nghiệp</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Kết nối với chúng tôi</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="app-downloads">
+                        <p class="download-text">Tải ứng dụng Starbucks</p>
+                        <div class="download-buttons">
+                            <a href="#" class="download-btn">
+                                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" class="download-img">
+                            </a>
+                            <a href="#" class="download-btn">
+                                <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play" class="download-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <a href="#" class="legal-link">Chính sách bảo mật</a>
+                    <a href="#" class="legal-link">Điều khoản sử dụng</a>
+                    <a href="#" class="legal-link">Cookie</a>
+                </div>
+                <p class="footer-copyright">© 2024 Starbucks Vietnam. Bảo lưu mọi quyền.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/product.js"></script>
+</body>
+</html>
