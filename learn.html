@@ -1,0 +1,450 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm hiểu về cà phê - Starbucks Việt Nam</title>
+    <meta name="description" content="Khám phá hành trình từ hạt cà phê đến tách cà phê hoàn hảo. Tìm hiểu về nguồn gốc, quy trình rang và nghệ thuật pha chế cà phê Starbucks." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/learn.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt="Starbucks" class="logo-img">
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">Thực đơn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="learn.html" class="nav-link active">Tìm hiểu</a>
+                    </li>
+                </ul>
+                
+                <!-- Right side buttons -->
+                <div class="nav-actions">
+                    <button class="btn-find-store">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Tìm cửa hàng
+                    </button>
+                    <button class="btn-signin">Đăng nhập</button>
+                    <button class="btn-signup">Tham gia ngay</button>
+                </div>
+                
+                <!-- Mobile menu toggle -->
+                <button class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <ul class="mobile-nav-menu">
+                <li><a href="product.html" class="mobile-nav-link">Thực đơn</a></li>
+                <li><a href="about.html" class="mobile-nav-link">About us</a></li>
+                <li><a href="learn.html" class="mobile-nav-link">Tìm hiểu</a></li>
+                <li><a href="#" class="mobile-nav-link">Tìm cửa hàng</a></li>
+                <li><a href="#" class="mobile-nav-link">Đăng nhập</a></li>
+                <li><a href="#" class="mobile-nav-link">Tham gia ngay</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Learn Hero -->
+        <section class="learn-hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hành trình của hạt cà phê</h1>
+                    <p class="hero-description">Từ những vùng đất cao nguyên xa xôi đến tách cà phê thơm lừng trong tay bạn, mỗi hạt cà phê đều trải qua một hành trình đầy kỳ diệu và nghệ thuật.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Coffee Journey" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Origins Section -->
+        <section class="origins-section">
+            <div class="container">
+                <h2 class="section-title">Nguồn gốc cà phê</h2>
+                <div class="origins-grid">
+                    <div class="origin-card">
+                        <div class="origin-image">
+                            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Latin America" class="origin-img">
+                        </div>
+                        <div class="origin-content">
+                            <h3 class="origin-title">Châu Mỹ Latin</h3>
+                            <p class="origin-description">Từ Colombia đến Guatemala, khu vực này mang đến những hạt cà phê với hương vị cân bằng, ngọt ngào tự nhiên và acid nhẹ nhàng.</p>
+                            <div class="origin-features">
+                                <span class="feature-tag">Ngọt ngào</span>
+                                <span class="feature-tag">Cân bằng</span>
+                                <span class="feature-tag">Acid nhẹ</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="origin-card">
+                        <div class="origin-image">
+                            <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Africa" class="origin-img">
+                        </div>
+                        <div class="origin-content">
+                            <h3 class="origin-title">Châu Phi</h3>
+                            <p class="origin-description">Quê hương của cà phê, Ethiopia và Kenya sản xuất những hạt cà phê với hương vị trái cây rõ rệt và độ acid sống động.</p>
+                            <div class="origin-features">
+                                <span class="feature-tag">Trái cây</span>
+                                <span class="feature-tag">Acid cao</span>
+                                <span class="feature-tag">Phức tạp</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="origin-card">
+                        <div class="origin-image">
+                            <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Asia Pacific" class="origin-img">
+                        </div>
+                        <div class="origin-content">
+                            <h3 class="origin-title">Châu Á - Thái Bình Dương</h3>
+                            <p class="origin-description">Từ Sumatra đến Papua New Guinea, khu vực này tạo ra những hạt cà phê đậm đà, đất và có body mạnh mẽ.</p>
+                            <div class="origin-features">
+                                <span class="feature-tag">Đậm đà</span>
+                                <span class="feature-tag">Đất</span>
+                                <span class="feature-tag">Body mạnh</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process-section">
+            <div class="container">
+                <h2 class="section-title">Quy trình sản xuất</h2>
+                <div class="process-timeline">
+                    <div class="process-step">
+                        <div class="step-number">01</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Trồng trọt</h3>
+                            <p class="step-description">Cà phê được trồng ở độ cao từ 1,000-2,000m, trong điều kiện khí hậu nhiệt đới với lượng mưa và nắng phù hợp.</p>
+                            <div class="step-image">
+                                <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Coffee Growing" class="step-img">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">02</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Thu hoạch</h3>
+                            <p class="step-description">Quả cà phê được thu hoạch bằng tay khi chín đỏ hoàn toàn, đảm bảo chỉ những quả tốt nhất được chọn lựa.</p>
+                            <div class="step-image">
+                                <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Coffee Harvesting" class="step-img">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">03</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Xử lý</h3>
+                            <p class="step-description">Hạt cà phê được tách khỏi vỏ quả và niêm mạc bằng phương pháp khô hoặc ướt, tạo nên hương vị đặc trưng.</p>
+                            <div class="step-image">
+                                <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Coffee Processing" class="step-img">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="step-number">04</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Rang</h3>
+                            <p class="step-description">Hạt cà phê xanh được rang ở nhiệt độ cao, phát triển hương vị và màu sắc đặc trưng theo từng loại rang.</p>
+                            <div class="step-image">
+                                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Coffee Roasting" class="step-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roasting Section -->
+        <section class="roasting-section">
+            <div class="container">
+                <div class="roasting-content">
+                    <div class="roasting-text">
+                        <h2 class="roasting-title">Nghệ thuật rang cà phê</h2>
+                        <p class="roasting-description">Rang cà phê là một nghệ thuật tinh tế, nơi nhiệt độ, thời gian và kinh nghiệm kết hợp để tạo nên hương vị hoàn hảo. Mỗi mức rang mang đến một trải nghiệm hương vị khác nhau.</p>
+                        
+                        <div class="roast-levels">
+                            <div class="roast-level">
+                                <div class="roast-color light-roast"></div>
+                                <div class="roast-info">
+                                    <h4>Rang nhẹ</h4>
+                                    <p>Giữ nguyên hương vị tự nhiên của hạt, acid cao, body nhẹ</p>
+                                </div>
+                            </div>
+                            
+                            <div class="roast-level">
+                                <div class="roast-color medium-roast"></div>
+                                <div class="roast-info">
+                                    <h4>Rang vừa</h4>
+                                    <p>Cân bằng giữa acid và body, hương vị phức tạp và đậm đà</p>
+                                </div>
+                            </div>
+                            
+                            <div class="roast-level">
+                                <div class="roast-color dark-roast"></div>
+                                <div class="roast-info">
+                                    <h4>Rang đậm</h4>
+                                    <p>Body mạnh mẽ, hương vị đậm đà với ghi chú khói và chocolate</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="roasting-image">
+                        <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Coffee Roasting" class="roasting-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brewing Section -->
+        <section class="brewing-section">
+            <div class="container">
+                <h2 class="section-title">Phương pháp pha chế</h2>
+                <div class="brewing-grid">
+                    <div class="brewing-method">
+                        <div class="method-icon">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <h3 class="method-title">Espresso</h3>
+                        <p class="method-description">Áp lực cao và thời gian ngắn tạo ra ly cà phê đậm đặc, là nền tảng cho nhiều đồ uống khác.</p>
+                        <div class="method-specs">
+                            <span>Thời gian: 25-30 giây</span>
+                            <span>Áp lực: 9 bar</span>
+                        </div>
+                    </div>
+                    
+                    <div class="brewing-method">
+                        <div class="method-icon">
+                            <i class="fas fa-filter"></i>
+                        </div>
+                        <h3 class="method-title">Pour Over</h3>
+                        <p class="method-description">Rót nước chậm và đều đặn qua cà phê xay, tạo ra hương vị sạch và sáng.</p>
+                        <div class="method-specs">
+                            <span>Thời gian: 4-6 phút</span>
+                            <span>Nhiệt độ: 90-96°C</span>
+                        </div>
+                    </div>
+                    
+                    <div class="brewing-method">
+                        <div class="method-icon">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                        <h3 class="method-title">French Press</h3>
+                        <p class="method-description">Ngâm cà phê trong nước nóng và ép qua lưới kim loại, tạo body đầy đặn.</p>
+                        <div class="method-specs">
+                            <span>Thời gian: 4 phút</span>
+                            <span>Xay: Thô</span>
+                        </div>
+                    </div>
+                    
+                    <div class="brewing-method">
+                        <div class="method-icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <h3 class="method-title">Cold Brew</h3>
+                        <p class="method-description">Ngâm cà phê trong nước lạnh trong thời gian dài, tạo hương vị mềm mại và ngọt ngào.</p>
+                        <div class="method-specs">
+                            <span>Thời gian: 12-24 giờ</span>
+                            <span>Nhiệt độ: Lạnh</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sustainability Section -->
+        <section class="sustainability-section">
+            <div class="container">
+                <div class="sustainability-content">
+                    <div class="sustainability-image">
+                        <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Sustainable Coffee" class="sustainability-img">
+                    </div>
+                    <div class="sustainability-text">
+                        <h2 class="sustainability-title">Cam kết bền vững</h2>
+                        <p class="sustainability-description">Starbucks cam kết tạo ra tác động tích cực đến cộng đồng nông dân và môi trường thông qua các chương trình bền vững.</p>
+                        
+                        <div class="sustainability-initiatives">
+                            <div class="initiative-item">
+                                <i class="fas fa-seedling"></i>
+                                <div>
+                                    <h4>C.A.F.E. Practices</h4>
+                                    <p>Tiêu chuẩn mua cà phê có trách nhiệm, đảm bảo chất lượng và tính bền vững</p>
+                                </div>
+                            </div>
+                            
+                            <div class="initiative-item">
+                                <i class="fas fa-hands-helping"></i>
+                                <div>
+                                    <h4>Hỗ trợ nông dân</h4>
+                                    <p>Chương trình đào tạo và hỗ trợ tài chính cho nông dân cà phê</p>
+                                </div>
+                            </div>
+                            
+                            <div class="initiative-item">
+                                <i class="fas fa-recycle"></i>
+                                <div>
+                                    <h4>Tái chế và giảm thiểu rác thải</h4>
+                                    <p>Cam kết sử dụng cốc tái chế và giảm thiểu tác động môi trường</p>
+                                </div>
+                            </div>
+                            
+                            <div class="initiative-item">
+                                <i class="fas fa-water"></i>
+                                <div>
+                                    <h4>Bảo vệ nguồn nước</h4>
+                                    <p>Các dự án bảo vệ và cải thiện chất lượng nguồn nước tại các vùng trồng cà phê</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coffee Education Section -->
+        <section class="education-section">
+            <div class="container">
+                <h2 class="section-title">Học hỏi về cà phê</h2>
+                <div class="education-cards">
+                    <div class="education-card">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="card-title">Khóa học Barista</h3>
+                        <p class="card-description">Tham gia khóa học để trở thành chuyên gia pha chế cà phê chuyên nghiệp.</p>
+                        <button class="card-button">Tìm hiểu thêm</button>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="card-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3 class="card-title">Cẩm nang cà phê</h3>
+                        <p class="card-description">Hướng dẫn chi tiết về các loại hạt, phương pháp pha và cách thưởng thức.</p>
+                        <button class="card-button">Tải về</button>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="card-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="card-title">Sự kiện nếm thử</h3>
+                        <p class="card-description">Tham gia các buổi nếm thử và khám phá hương vị cà phê từ khắp nơi trên thế giới.</p>
+                        <button class="card-button">Đăng ký</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Về chúng tôi</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html" class="footer-link">Câu chuyện của chúng tôi</a></li>
+                        <li><a href="#" class="footer-link">Tin tức</a></li>
+                        <li><a href="#" class="footer-link">Tuyển dụng</a></li>
+                        <li><a href="#" class="footer-link">Đầu tư</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Dịch vụ khách hàng</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Liên hệ chúng tôi</a></li>
+                        <li><a href="#" class="footer-link">FAQ</a></li>
+                        <li><a href="#" class="footer-link">Chính sách đổi trả</a></li>
+                        <li><a href="#" class="footer-link">Hỗ trợ kỹ thuật</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Chương trình</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Starbucks Rewards</a></li>
+                        <li><a href="learn.html" class="footer-link">Tìm hiểu về cà phê</a></li>
+                        <li><a href="#" class="footer-link">Ưu đãi đặc biệt</a></li>
+                        <li><a href="#" class="footer-link">Doanh nghiệp</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Kết nối với chúng tôi</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="app-downloads">
+                        <p class="download-text">Tải ứng dụng Starbucks</p>
+                        <div class="download-buttons">
+                            <a href="#" class="download-btn">
+                                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store" class="download-img">
+                            </a>
+                            <a href="#" class="download-btn">
+                                <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play" class="download-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <a href="#" class="legal-link">Chính sách bảo mật</a>
+                    <a href="#" class="legal-link">Điều khoản sử dụng</a>
+                    <a href="#" class="legal-link">Cookie</a>
+                </div>
+                <p class="footer-copyright">© 2024 Starbucks Vietnam. Bảo lưu mọi quyền.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
